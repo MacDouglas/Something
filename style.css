@@ -1,0 +1,91 @@
+#square { //Красный круг
+
+width: 0px; //Ширина
+
+height: 0px; //Высота
+
+background-color: red; //Цвет
+
+z-index: 2; //Расположение слоя
+
+position: absolute; //Расположение
+
+left: 33%; //Отступ слева
+
+top: 100px; //Отступ сверху
+
+border-radius: 50%; //Приведение к круглому виду
+
+}
+
+#size { //Поле
+
+width: 543px; //Ширина
+
+height: 500px; //Высота
+
+border: 3px solid black; //Цвет
+
+position: absolute; //Позиция
+
+left: 32%; //Отступ слева
+
+top: 90px; //Отступ сверху
+
+z-index: 1; //Расположение слоя
+
+}
+
+#timer { //Таймер
+
+position: absolute; //Позиция
+
+left: 38%; //Отступ слева
+
+top: 53px; //Отступ сверху
+
+border: 2px solid rebeccapurple; //Цвет рамки
+
+border-radius: 50px; //Закругление краев
+
+width: 160px; //Ширина
+
+height: 20px; //Высота
+
+text-align: left; //Расположение текста слева
+
+padding-left: 5px; //Отступ слева от границы элемента
+
+}
+
+#start-button{ //Кнопка начала игры
+
+position: absolute; //Расположение
+
+top: 55px;
+
+left: 32%;
+
+}
+
+#score { //Счет
+
+position: absolute;
+
+left: 48%;
+
+top: 53px;
+
+border: 2px solid rebeccapurple; //Цвет рамки
+
+border-radius: 50px; //Закругление краев
+
+width: 70px;
+
+height: 20px;
+
+text-align: left;
+
+padding-left: 5px;
+
+}
